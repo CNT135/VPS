@@ -27,7 +27,7 @@ printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debia
 read -p "Paste Here: " CRP
 su - UFO -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n\n'
-if sudo apt-get upgrade &> /dev/null
+if sudo apt-get upgrade 
 then
     printf "\n\nUpgrade Completed " >&2
 else
