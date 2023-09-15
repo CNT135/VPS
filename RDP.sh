@@ -20,7 +20,7 @@ sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
 google-chrome www.vnews.gov.vn
 sudo adduser UFO chrome-remote-desktop
-} &> /dev/null &&
+} &&
 printf "\nSetup Complete " >&2 ||
 printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
